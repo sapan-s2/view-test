@@ -1,0 +1,30 @@
+{
+  "name": "viewtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "mui": {
+    "entries": [
+      "index"
+    ],
+    "externals": {
+      "external/react": {
+        "root": "React",
+        "amd": "react",
+        "commonjs": "react",
+        "commonjs2": "react"
+      },
+      "external/ui-toolkit": {
+        "root": ["mui", "ui-toolkit"],
+        "amd": "ui-toolkit/index",
+        "commonjs": "ui-toolkit/index",
+        "commonjs2": "ui-toolkit/index"
+      }
+    }
+  }
+}
